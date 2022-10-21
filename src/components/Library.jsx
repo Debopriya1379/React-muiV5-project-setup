@@ -1,9 +1,9 @@
-import { AppBar, Toolbar } from "@mui/material";
+import { Box, Toolbar } from "@mui/material";
 
 export default function Navbar() {
   return (
-    <AppBar position="sticky">
+    <Box>
       <Toolbar>hi this is your navbar</Toolbar>
-    </AppBar>
+    </Box>
   );
 }
